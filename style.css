@@ -1,0 +1,44 @@
+* {
+    background-color:lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.photo {
+    position: relative;
+}
+
+.photo img {
+    height: 400px;
+    max-width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-label {
+    text-align: center;
+}
+
+
+.list ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   }
+
+.list li {
+    float: center;
+   }
+
+.list a{
+    display: block;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
