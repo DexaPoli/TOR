@@ -11,26 +11,30 @@ h1 {
 }
 
 .photo img {
-    height: 400px;
+    height: 300px;
     max-width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.image-label {
-    text-align: center;
+h2 {
+    font-size: 1.5em;
 }
 
-.container {
+.container li{
+    text-align: justify;
+}
+
+.footer {
     display: grid;
     justify-content: center;
-    text-align: center;
-    gap: 0.5em;
+   
 }
 
-.link a{
+.footer a{
     text-decoration: none;
+    padding: 5px;
+    text-align: center;
+
 }
-
-
